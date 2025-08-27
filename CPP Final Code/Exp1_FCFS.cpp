@@ -71,5 +71,20 @@ int main(){
 
 /*
 Output
+Enter the Number of Process : 5
+Enter Arrival and Burst Time for P1: 3 1
+Enter Arrival and Burst Time for P2: 4 5
+Enter Arrival and Burst Time for P3: 0 2
+Enter Arrival and Burst Time for P4: 3 7
+Enter Arrival and Burst Time for P5: 5 5
 
+PID     AT      BT      CT      TAT     WT
+P1      3       1       4       1       0
+P2      4       5       16      12      7
+P3      0       2       2       2       0
+P4      3       7       11      8       1
+P5      5       5       21      16      11
+
+Average Turnaround Time = 7.8
+Average Waiting Time = 3.8
 */
